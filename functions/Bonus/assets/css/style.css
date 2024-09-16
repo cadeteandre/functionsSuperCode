@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: rotate(135deg);
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.btn1 {
+    border: 1px solid #000000;
+    background-image: conic-gradient(#0da2de 180deg, #fff 180deg);
+}
+
+.btn2 {
+    border: 1px solid #000000;
+    background-image: conic-gradient(#f20808 180deg, #000000 180deg);
+}
+
+.btn3 {
+    border: 1px solid #ffffff;
+    background-image: conic-gradient(#e121ff 180deg, #011c93 180deg);
+}
+
+.btn4 {
+    border: 1px solid #ffffff;
+    background-image: conic-gradient(#38ad54 180deg, #fff 180deg);
+}
